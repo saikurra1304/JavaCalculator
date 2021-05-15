@@ -3,7 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.ravi.cal</groupId>
    <artifactId>RaviCalculator</artifactId>
-   <version>0.1.2-SNAPSHOT</version>
+   <version>0.1.2</version>
    <packaging>jar</packaging>
    <name>RaviCalculator</name>
    <url>http://maven.apache.org</url>
@@ -18,5 +18,11 @@
          <scope>test</scope>
       </dependency>
    </dependencies>
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://3.239.84.96:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>	   
    
 </project>
